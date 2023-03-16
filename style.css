@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+  
+/* section 1 */
+
+/* navbar 1 */
+.container3 {
+    margin: 0;
+    height: 30px;
+    display: flex;
+    background-color: #e5e3e3;
+    justify-content: space-between;
+   }
+   .container3 > ul{
+       display: flex; 
+   }
+   .container3 > ul >li{
+  
+    margin-right: 20px;
+    font-size: 12px;
+   list-style: none;
+
+
+   }
+
+/* navbar 2 */
+.container > div {
+ display: flex;
+ justify-content: space-evenly;
+}
+.container > ul{
+    align-items: center;
+
+    display: flex;
+    
+}
+.container > ul >li{
+   margin-right: 17px;
+   list-style: none;
+  letter-spacing: 5px;
+  
+}
+.container > ul >li :hover{
+   
+    color: red;
+  }
+.container > ul >li > a > img{
+    width: 170px;
+}
+#flag > img{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+}
+.div_3{
+    padding-left: 100px;
+}
+.search{
+    position: relative;
+    right: 25px;
+    border: transparent;
+    background-color: #e5e3e3;
+    border-radius: 5px;
+ 
+ }
+ 
+ .cart-counter{
+    display:inline-block;
+    width:30px;
+    opacity:10;
+    height:20px;
+    background:#ddd;
+    text-align:center;
+    border-radius:50%;
+    position: relative;
+    bottom: 15px;
+    
+  }
+.input{
+    position: relative;
+    background-color: #e5e3e3;
+    height: 40px;
+    width: 270px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa.fa-heart-o{
+    font-size: 20px;
+    color: black;
+}
+.fa.fa-shopping-cart{
+    font-size: 20px;
+    color: black;
+
+
+}
+
+/* navbar 3 */
+
+.container2 > div{
+    display: flex;
+   
+}
+.container2 > ul{
+    display: flex;
+    justify-content: center;
+ 
+}
+.container2 > ul >li{
+    margin-right: 45px;
+    
+    
+    list-style: none;
+   letter-spacing: 5px;
+   
+ }
+ .container2 > ul >li>a{
+  text-decoration: none;
+ }
+
+
+ /* section 2 */
+
+ /* external css: flickity.css */
+
+ #section2{
+    margin-top: 150px;
+ }
+* { box-sizing: border-box; }
+
+.carousel {
+  background: white;
+}
+
+.carousel-cell {
+  width: 35%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell > img{
+    height: 500px;
+    width: 500px;
+}
+#sec_img{
+   display: flex;
+   justify-content: center;
+}
+#sec_img > div{
+    width:10%;
+}
+#sec_img > div > img{
+    width: 100%;
+}
+#sec_img > div > h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.design_img > img{
+    width: 100%;
+}
+.design_img > h1{
+    text-align: center;
+}
+
+
+/* sections 3 */
+
+#categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#categories > div{
+    flex:   10%;
+    
+}
+
+
+
+/* section 4 */
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+
+.carousel-cell1 {
+  width: 98%;
+  height: 350px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell1.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell1:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+/* .border > div{
+    border: 2px solid black;
+} */
+.image{
+    height: 80%;
+ 
+}
+.detail{
+    height: 20%;
+}
+.detail > p{
+   font-size: 15px;
+}
+
+.line{
+    text-decoration: line-through;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.price{
+    font-size: 15px;
+}
+.fa.fa-inr{
+    font-size: 15px;
+}
+.heart{
+    margin-left: 180px;
+}
+
+.fa.fa-heart-o{
+    color: black;
+}
+
+/* section 5 */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    
+}
+
+.grid-container > div{
+    margin-bottom: 10px;
+}
+
+#bags{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+
+
+.carousel2 {
+  background: #EEE;
+}
+
+.carousel-cell2 {
+  width: 30%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell2.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell2:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  color: white;
+}
+
+
+#top_accessories{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* section 7 */
+
+.logo{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.footer_div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+
+
+}
+.footer_div > div > ul > li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+
+}
+.footer_div > div > h1{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+.footer_div2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    justify-content: space-around;
+}
+.footer_div2> div > ul > li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+    
+
+}
+.footer_div2 > div > h1{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 40px;
+
+
+}
+
+
+
+.pay_img >img{
+    margin-left: 10px;
+   width: 20px;
+   height: 20px;
+}
+.pay_img >span>img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+ }
+
+ .footer_div3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;  
+ }
+ .footer_div3 > div > ul > li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+
+}
+.footer_div3 > div > h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+
+.fa.fa-snapchat{
+    margin-left: 20px;
+
+}
+.fa.fa-apple{
+    margin-left: 20px;
+
+}

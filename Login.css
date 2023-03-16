@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+.container3 {
+    margin: 0;
+    height: 30px;
+    display: flex;
+    background-color: #e5e3e3;
+    justify-content: space-between;
+   }
+   .container3 > ul{
+       display: flex; 
+   }
+   .container3 > ul >li{
+  
+    margin-right: 20px;
+    font-size: 12px;
+   list-style: none;
+
+   }
+/* nav 2 */
+.container > div {
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .container > ul{
+       display: flex;
+  align-items: center;
+       
+   }
+   .container > ul >li{
+      margin-right: 20px;
+      list-style: none;
+     letter-spacing: 5px;
+     
+   }
+   .container > ul >li :hover{
+   
+    color: red;
+  }
+   .container > ul >li > a > img{
+       width: 170px;
+   }
+   #flag > img{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+   }
+   .div_3{
+       padding-left: 100px;
+   }
+   
+   .search{
+    position: relative;
+    right: 25px;
+    border: transparent;
+    background-color: #e5e3e3;
+    border-radius: 5px;
+ 
+ 
+ }
+ 
+ .cart-counter{
+    display:inline-block;
+    width:30px;
+    opacity:10;
+    height:20px;
+    background:#ddd;
+    text-align:center;
+    border-radius:50%;
+    position: relative;
+    bottom: 15px;
+    
+  }
+   .input{
+       position: relative;
+       background-color: #e5e3e3;
+       height: 40px;
+       width: 270px;
+       border: none;
+       border-radius: 5px;
+   }
+   
+   .fa.fa-heart-o{
+        padding-left: 10px;
+       font-size: 20px;
+       color: black;
+   }
+   .fa.fa-shopping-cart{
+       font-size: 20px;
+       color: black;
+
+   
+   }
+
+
+   /* Login & sign up */
+
+   .img_div{
+    display: flex;
+   }
+/*------------*/
+
+.img_div > div{
+ width: 50%;
+}
+.form-control {
+  
+    width: 400px;
+
+    padding: 15px 19px;
+    color: #475F7B;
+    background-color: #FFF;
+    border: 2px solid black;
+    border-radius: .267rem;
+   
+}
+.form-group > button{
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
+    width: 440px;
+    margin-top: 20px;
+    padding: 15px 19px;
+    background-color: #42a2a2;
+    border-radius: 10px;
+
+}
+.form-group {
+    margin-top: 70px;
+    margin-left: 160px;
+}
+.form-group > img{
+    margin-top: 30px;
+    width: 440px;
+}
+.form-group > p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.btn{
+    background-color: white;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 20px;
+    width: 440px;
+    margin-top: 20px;
+    padding: 10px 19px;
+    border-radius: 10px;
+}
+.form-group2 > button{
+    background-color: white;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 20px;
+    width: 220px;
+    margin-top: 20px;
+    padding: 10px 19px;
+    border-radius: 10px;
+}
+.form-group2 > button > img{
+  width: 20px;
+  height: 20px;
+}
+

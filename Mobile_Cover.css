@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+.container3 {
+    margin: 0;
+    height: 30px;
+    display: flex;
+    background-color: #e5e3e3;
+    justify-content: space-between;
+   }
+   .container3 > ul{
+       display: flex; 
+   }
+   .container3 > ul >li{
+    margin-right: 20px;
+    font-size: 12px;
+   list-style: none;
+
+   }
+ 
+/* nav 2 */
+.container > div {
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .container > ul{
+       display: flex;
+       align-items: center;
+
+       
+   }
+   .container > ul >li{
+      margin-right: 17px;
+      list-style: none;
+     letter-spacing: 2px;
+     
+   }
+
+   .container > ul >li :hover{
+   
+   color: red;
+ }
+   .container > ul >li > a > img{
+       width: 170px;
+   }
+   #flag > img{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+   }
+   .div_3{
+       padding-left: 100px;
+   }
+   
+   
+ .cart-counter{
+    display:inline-block;
+    width:30px;
+    opacity:10;
+    height:20px;
+    background:#ddd;
+    text-align:center;
+    border-radius:50%;
+    position: relative;
+    bottom: 15px;
+    
+  }
+   .input{
+       position: relative;
+       background-color: #e5e3e3;
+       height: 40px;
+       width: 270px;
+       border: none;
+       border-radius: 5px;
+   }
+   
+   .fa.fa-heart-o{
+        padding-left: 10px;
+       font-size: 20px;
+       color: black;
+   }
+   .fa.fa-shopping-cart{
+       font-size: 20px;
+       color: black;
+
+   
+   }
+
+   /* section 2 */
+
+   .cover_div{
+    display: flex;
+    background-color: #f5f5f5;
+    width: 80%;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+   .cover_div > div{
+    width: 70%;
+    margin-top: 120px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+
+   }
+   .cover_div > div >select{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 280px;
+    height: 40px;
+   }
+
+   .cover_div > div >button{
+    border: none;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+   }
+
+   .cover_div > img{
+    position: absolute;
+    right: 210px;
+    top: 239px;
+   }
+   
+   .cover_div > h1{
+    position: absolute;
+    left: 200px;
+    top: 140px;
+
+   }
+
+
+
+   .popular{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+  
+   }
+   .Wishlist{
+    margin-left: 160px;
+    margin-top: 24px;
+  }
+  .Wishlist > i:hover{
+    transform: scale(1.6);
+    color: red;
+  
+  }
+   .popular >div{
+    margin-bottom: 40px;
+   }
+   .cover_div > div> h3{
+    margin-left: 40px;
+    margin-top: 40px;
+   }
+
+  

@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.container3 {
+  margin: 0;
+  height: 30px;
+  display: flex;
+  background-color: #e5e3e3;
+  justify-content: space-between;
+}
+.container3 > ul {
+  display: flex;
+  align-items: center;
+}
+.container3 > ul > li {
+  margin-right: 17px;
+  font-size: 12px;
+  list-style: none;
+}
+.container3 > ul > li :hover {
+  color: red;
+}
+/* nav 2 */
+.container > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container > ul {
+  display: flex;
+}
+.container > ul > li {
+  margin-right: 20px;
+  list-style: none;
+  letter-spacing: 5px;
+}
+.container > ul > li > a > img {
+  width: 170px;
+}
+#flag > img {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+}
+.div_3 {
+  padding-left: 100px;
+}
+
+.search {
+  position: relative;
+  right: 25px;
+  border: transparent;
+  background-color: #e5e3e3;
+  border-radius: 5px;
+}
+
+.input {
+  position: relative;
+  background-color: #e5e3e3;
+  height: 40px;
+  width: 270px;
+  border: none;
+  border-radius: 5px;
+}
+
+.fa.fa-heart-o {
+  padding-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+.fa.fa-shopping-cart {
+  font-size: 20px;
+  color: black;
+}
+
+/* section 2 */
+
+.product_main_div {
+    margin-top: 100px;
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product_main_div > div {
+  height: 600px;
+}
+
+#Div1 > div > img {
+  width: 500px;
+  height: 550px;
+  margin-top: 30px;
+  margin-left: 230px;
+}
+#Div2 > div {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.Price {
+  margin-top: 50px;
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 10;
+  position: absolute;
+  top: 160px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+
+.footer_div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.footer_div > div > ul > li {
+  list-style: none;
+  color: white;
+  margin-top: 10px;
+}
+.footer_div > div > ul > li:hover{
+    color: red;
+}
+.footer_div > div > h1 {
+  color: yellow;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.footer_div2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  justify-content: space-around;
+}
+.footer_div2 > div > ul > li {
+  list-style: none;
+  color: white;
+  margin-top: 10px;
+}
+.footer_div2 > div > ul > li:hover{
+    color: red;
+}
+.footer_div2 > div > h1 {
+  color: yellow;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.pay_img > img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.pay_img > span > img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.footer_div3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+.footer_div3 > div > ul > li {
+  list-style: none;
+  color: white;
+  margin-top: 10px;
+}
+.footer_div3 > div > h1 {
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.footer_div3 > div > ul > li:hover{
+    color: red;
+}
+
+.fa.fa-snapchat {
+  margin-left: 20px;
+}
+.fa.fa-apple {
+  margin-left: 20px;
+}

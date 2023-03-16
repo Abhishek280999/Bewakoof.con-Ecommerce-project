@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewakoof.com</title>
+    <link rel = "icon" href = "https://images.bewakoof.com/image/content/2022/02/18164502/bewakoof-lofo-app-icon-new-2-1.png"type = "image/x-icon">
+     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./Mens_Product.css">
+</head>
+<body>
+    <section>
+      <nav class="navbar" >
+          <div class="container3">
+            <div class="container3">
+              <ul>
+                <li>Offers</li>
+                <li>Fanbook</li>
+                <li>
+                  <i class="fa fa-mobile" aria-hidden="true"></i> Dawnlond App
+                </li>
+                <li>TriBe Membership</li>
+              </ul>
+            </div>
+            <div class="container3">
+              <ul>
+                <li>Contact Us</li>
+                <li>Track Order</li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+            <div class="container">
+              <ul>
+                <li>
+                  <a href="./index.html"><img src="./img/logo.svg" alt="" /></a>
+                </li>
+                <div class="container">
+                  <ul>
+                    <li><a style="text-decoration: none;" href="./Men_Product.html">MEN</a></li>
+                    <li><a style="text-decoration: none;" href="./Women_Product.html">WOMEN</a></li>
+                  <li><a style="text-decoration: none;" href="./Mobile_Cover.html">MOBILE COVER</a></li>
+                  <li><a style="text-decoration: none;"  href="./Couple.html">COUPLE TEES</a></li>
+
+                  </ul>
+                </div>
+              </ul>
+  
+              <div class="container div_3">
+                <ul>
+                  <input class="input" type="search" />
+                  <button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  <li style=" margin-left: 10px;"><a style="text-decoration: none; " href="./Login.html">Login</a></li>
+                  <li><a href="/Wishlist.html"><i class="fa fa-heart-o"  aria-hidden="true"></i></a></li>
+                  <li><a href="/Cart.html"><i  class="fa fa-shopping-cart" aria-hidden="true"></i><span class="cart-counter">1</span></a></li>
+                  <li id="flag"><img src="./img/flag.png" alt="" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </nav>
+
+      </section>
+
+      <!-- section 2 -->
+
+      <section>
+        <div class="main_div">
+            <div class="filter_div">
+              <h1>Men Clothing</h1>
+
+                <select name="" id="category" onchange="category_option()" class="mens_options">
+                    <option value="">Category</option>
+                    <option value="Tshirt">Tshirt</option>
+                    <option value="Shirt">Shirt</option>
+                    <option value="Jeans">Jeans</option>
+                    <option value="Sweatshirt">Sweatshirt</option>
+                </select>
+
+            </div>
+
+            <div class="product_div">
+            
+            </div>
+
+            <div>
+              <select name="" id="sort_div" onchange="sort_option()">
+                <option value="">SORT BY</option>
+                <option value="Low">Price : Low to High</option>
+                <option value="High">Price : High to Low</option>
+           
+              </select>
+            </div>
+        </div>
+      </section>
+  
+</body>
+<script src="./Mens_Product.js"></script>
+</html>

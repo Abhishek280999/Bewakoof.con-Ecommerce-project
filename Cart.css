@@ -1,0 +1,88 @@
+.main_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .main_div > div{
+    height: 800px;
+   }
+   #Div1{
+    margin-left: 120px;
+    padding: 30px;
+   }
+   #Div1 > div{
+    padding-left: 20px;
+    border: 2px solid  #e5e3e3;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 10px;
+   }
+   #Div1 > div > img{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 140px;
+ 
+    float: right;
+   }
+   #Div1 > div > p{
+    position: relative;
+    top: -30px;
+   }
+button{
+  position: relative;
+  background-color: #e5e3e3;
+  border: transparent;
+  bottom: 37px;
+  left: 123px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: red;
+}
+
+   
+ .cart-counter{
+    display:inline-block;
+    width:30px;
+    opacity:10;
+    height:20px;
+    background:#ddd;
+    text-align:center;
+    border-radius:50%;
+    position: relative;
+    bottom: 15px;
+    
+  }
+  
+.lebal{
+  position: relative;
+  bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+  .Size {
+    display: flex;
+
+  }
+  .Size > div{
+    position: relative;
+    padding-top: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: tan;
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+    top: -50px;
+    left: 25px;
+  }
+.order{
+  width: 200px;
+  height: 30px;
+  background-color: red;
+  border: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
